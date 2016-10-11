@@ -5,10 +5,10 @@ INCLUDE deck-common.nde
 [zscalex]=(scale)*[base_scalex]
 [zscaley]=(scale)*[base_scaley]
 
-[xloc]=[wid_internal]*((x)/[wid_cells]) - [zscalex]/2 + [wid_border]
-[yloc]=[ht_internal] *((y)/[ht_cells])  - [zscaley]/2 + [ht_border]
+[xloc]=[wid_internal]*((x)/[wid_cells]) - [zscale]/2 + [wid_border]
+[yloc]=[ht_internal] *((y)/[ht_cells])  - [zscale]/2 + [ht_border]
 
-[zone_pip]=[xloc], [yloc], [zscalex], [zscaley]
+[zone_pip]=[xloc], [yloc], [zscale],[zscale]
 IMAGE = (rng), (file), [zone_pip], (flags)
 END
 

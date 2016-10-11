@@ -6,10 +6,12 @@ IMAGEFILTER=LANCZOS
 CARDSIZE=[wid_card],[ht_card]
 [wid_border]=0.635
 [wid_border]=1
-[ht_border]=0.25
+[ht_border]=0.1
+[ht_border_mod]=([ht_border]+([wid_border]-[ht_border])/2)
 
 [wid_internal]=([wid_card] - ([wid_border]*2))
 [ht_internal]=([ht_card] - ([ht_border]*2))
+[ht_internal_mod]=([ht_card]-([ht_border_mod]*2))
 
 [base_scale]=(0.33 * [wid_internal])
 [base_scalex]=(0.33 * [wid_internal])
