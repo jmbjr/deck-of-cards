@@ -1,11 +1,29 @@
 OVERSAMPLE=2
 IMAGEFILTER=LANCZOS
 
-[wid_card]=6
-[ht_card]=9
+[wid_card]=6.35
+[ht_card]=8.89
 CARDSIZE=[wid_card],[ht_card]
+[wid_border]=0.635
+[wid_border]=1
+[ht_border]=0.25
+
+[wid_internal]=([wid_card] - ([wid_border]*2))
+[ht_internal]=([ht_card] - ([ht_border]*2))
+
+[base_scale]=(0.33 * [wid_internal])
+[base_scalex]=(0.33 * [wid_internal])
+[base_scaley]=(0.33 * [ht_internal])
+
+[ace_scale]=1.5
+[normal_scale]=0.85
+
+[wid_cells]=36
+[ht_cells]=48
+
 
 [img_angle_flags]=0,TRP
+[img_angle_flags_flipV]=0,TRPV
 [wid_main]=5
 [ht_main]=5
 [ht_title]=2.5

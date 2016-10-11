@@ -1,3 +1,17 @@
+MACRO=DRAWPIP, (rng), (file), (x), (y), (scale), (flags)
+INCLUDE deck-common.nde
+
+[zscale]=(scale)*[base_scale]
+[zscalex]=(scale)*[base_scalex]
+[zscaley]=(scale)*[base_scaley]
+
+[xloc]=[wid_internal]*((x)/[wid_cells]) - [zscalex]/2 + [wid_border]
+[yloc]=[ht_internal] *((y)/[ht_cells])  - [zscaley]/2 + [ht_border]
+
+[zone_pip]=[xloc], [yloc], [zscalex], [zscaley]
+IMAGE = (rng), (file), [zone_pip], (flags)
+END
+
 MACRO= CARDTITLE, (color_title), (colors-txt), (ranges), (values)
 INCLUDE deck-common.nde
 
