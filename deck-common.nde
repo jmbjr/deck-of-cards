@@ -1,0 +1,39 @@
+OVERSAMPLE=2
+IMAGEFILTER=LANCZOS
+
+[wid_card]=6
+[ht_card]=9
+CARDSIZE=[wid_card],[ht_card]
+
+[img_angle_flags]=0,TRP
+[wid_main]=5
+[ht_main]=5
+[ht_title]=2.5
+[dir_img]=img
+[dir_tts]=tts
+
+[zone_title]=0,0,100%,[ht_title]
+[zone_main]= 0.5,4.0,[wid_main],[ht_main]
+
+[font_mult_wid] = 100%
+[font_mult_ht] = 50%
+[fontsize]=30
+[angle] = 0
+[alpha] = 100
+
+[xpos] = 0
+[ypos] = 1
+[wid]  = 6
+[ht]   = 2.5
+
+[num_tts_cards] = 70
+
+'needs to be common with img-common at some point
+[border_thick]=0.15
+[border_regular]=0.05
+[border_thin]=0.01
+[color_foreground] = #FFFFFF
+[color_border] = #000000
+
+
+

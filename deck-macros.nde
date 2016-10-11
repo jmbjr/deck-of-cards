@@ -1,0 +1,79 @@
+MACRO= CARDTITLE, (color_title), (colors-txt), (ranges), (values)
+INCLUDE deck-common.nde
+
+RECTANGLE=(ranges),[zone_title], [color_border],(color_title),[border_thick]
+FONT=arial,[fontsize],TB,(colors-txt)
+TEXT=(ranges),(values),[xpos],[ypos]-1,[font_mult_wid],[font_mult_ht],CENTER,WWTOP,[angle],[alpha]
+END
+
+MACRO= SAVETTS, (num_tts_cards), (outfile_path)
+rectangle=(num_tts_cards),0,0,100%,100%,#000000
+display=(outfile_path)
+END
+
+MACRO= MOB_TEXT, (color_outline), (color_text), (ranges), (values)
+INCLUDE deck-common.nde
+'override
+[fontsize]=50
+FONT=arial,[fontsize],TB,(color_text)
+TEXT=(ranges),(values),100%-[font_mult_ht],[font_mult_ht]-1.5,[font_mult_ht],[font_mult_ht],center,wwtop,[angle],[alpha]
+
+FONT=arial,[fontsize],TB,(color_outline)
+TEXT=(ranges),(values),100%-[font_mult_ht],[font_mult_ht]-1.5,[font_mult_ht],[font_mult_ht],center,wwtop,[angle],[alpha],[border_regular]
+END
+
+MACRO= MAKE_BASIC_CARD, (input_csv_file)
+INCLUDE=deck-common.nde
+
+[link_file_path]=(input_csv_file)
+
+LINKMULTI=count
+LINK = [link_file_path]
+
+[all]=1-{(cardtitle)}
+
+CARDTITLE=[color_title], [color_text], [all], [cardtitle]
+IMAGE = [all], [file], [zone_main], [img_angle_flags]
+
+END
+
+MACRO= MAKE_MOB_CARD, (input_csv_file)
+INCLUDE=deck-common.nde
+
+[link_file_path]=(input_csv_file)
+
+'overrides
+[fontsize]=40
+[wid_main]=5
+[ht_main]=7
+[x_main]=([wid_card]-[wid_main])/2
+[y_main]=([ht_card]-[ht_main])/2
+[zone_main]= [x_main],[y_main],[wid_main],[ht_main]
+
+LINKMULTI=count
+LINK = [link_file_path]
+
+[all]=1-{(cardtitle)}
+
+IMAGE = [all], [file], [zone_main], [img_angle_flags]
+MOB_TEXT=[color_outline], [color_text], [all], [cardtitle]
+END
+
+MACRO= MAKE_START_CARD, (input_csv_file)
+INCLUDE=deck-common.nde
+
+[link_file_path]=(input_csv_file)
+
+LINKMULTI=count
+LINK = [link_file_path]
+
+[wid]=4
+[x1]=50%-[wid]/2
+[y1]=50%-[wid]/2
+[zone1]=[x1],[y1],[wid],[wid]
+
+[all]=1-{(cardtitle)}
+
+FILL=[all],0,0,[color_gradient],[color_border]
+ELLIPSE=[all],[zone1],[color_border],[color_light],[border_thick]
+END
