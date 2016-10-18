@@ -9,8 +9,11 @@ INCLUDE=deck-macros.nde
 rectangle=[cardrange],[wid_border],[ht_border_mod],[wid_internal],[ht_internal_mod],#DDDDDD
 
 LINK = "data-basic-deck.csv"
+
 CARDS=[numcards]
 
-DRAWPIP=[numcards],[cardvalue],[img],[x],[y],[scale],[angle],[flags]
+FOR=a,1,[numcards]
+DRAWPIP={cardvalue?a},[img],{x?a},{y?a},{scale?a},{angle?a},{flags?a}
+NEXT
 
 'SAVETTS=[num_tts_cards],[dir_tts]/hearts-tmp.png
