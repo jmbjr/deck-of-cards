@@ -1,0 +1,16 @@
+INCLUDE=deck-common.nde
+INCLUDE=deck-macros.nde
+
+'info
+[img]="img/test.png"
+[numcards]=10
+[cardrange]="1-10"
+
+rectangle=[cardrange],[wid_border],[ht_border_mod],[wid_internal],[ht_internal_mod],#DDDDDD
+
+LINK = "data-basic-deck.csv"
+CARDS=[numcards]
+
+DRAWPIP=[numcards],[cardvalue],[img],[x],[y],[scale],[angle],[flags]
+
+'SAVETTS=[num_tts_cards],[dir_tts]/hearts-tmp.png

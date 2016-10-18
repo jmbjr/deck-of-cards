@@ -1,15 +1,22 @@
-MACRO=DRAWPIP, (rng), (file), (x), (y), (scale), (flags)
+MACRO=DRAWPIP, (num_cards), (rng), (file), (x), (y), (scale), (angle), (flags)
 INCLUDE deck-common.nde
+[seq_rng]=(rng)
+[seq_x]=(x)
+[seq_y]=(y)
+[seq_scale]=(scale)
+[seq_angle]=(angle)
+[seq_flags]=(flags)
 
-[zscale]=(scale)*[base_scale]
-[zscalex]=(scale)*[base_scalex]
-[zscaley]=(scale)*[base_scaley]
+FOR=a,1,(num_cards)
+[zscale]={seq_scale?a}*[base_scale]
 
-[xloc]=[wid_internal]*((x)/[wid_cells]) - [zscale]/2 + [wid_border]
-[yloc]=[ht_internal] *((y)/[ht_cells])  - [zscale]/2 + [ht_border]
+[xloc]={[wid_internal]*({seq_x?a}/[wid_cells]) - [zscale]/2 + [wid_border]}
+[yloc]={[ht_internal] *({seq_y?a}/[ht_cells])  - [zscale]/2 + [ht_border]}
 
 [zone_pip]=[xloc], [yloc], [zscale],[zscale]
-IMAGE = (rng), (file), [zone_pip], (flags)
+
+IMAGE = {seq_rng?a}, (file), [zone_pip], {seq_angle?a}, {seq_flags?a}
+NEXT
 END
 
 MACRO= CARDTITLE, (color_title), (colors-txt), (ranges), (values)
