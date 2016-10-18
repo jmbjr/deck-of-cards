@@ -1,5 +1,4 @@
 INCLUDE=deck-common.nde
-INCLUDE=deck-macros.nde
 
 'info
 [img]="img/test.png"
@@ -13,7 +12,7 @@ LINK = "data-basic-deck.csv"
 CARDS=[numcards]
 
 FOR=a,1,[numcards]
-DRAWPIP={cardvalue?a},[img],{x?a},{y?a},{scale?a},{angle?a},{flags?a}
+IMAGE = {cardvalue?a}, [img], {[wid_internal]*({x?a}/[wid_cells]) - ({scale?a}*[base_scale])/2 + [wid_border]}, {[ht_internal] *({y?a}/[ht_cells])  - ({scale?a}*[base_scale])/2 + [ht_border]}, {scale?a}*[base_scale],{scale?a}*[base_scale],{angle?a},{flags?a}
 NEXT
 
 'SAVETTS=[num_tts_cards],[dir_tts]/hearts-tmp.png
