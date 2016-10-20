@@ -1,0 +1,25 @@
+INCLUDE=deck-common.nde
+INCLUDE=deck-macros.nde
+
+'info
+[suits]=rainbow.png|unicorn.png|car.png|block.png
+[deckname]=kids-fun-deck.png
+
+[numsuits]=4
+[numcards]=40
+[numlines]=55
+[cardrange]="1-40"
+
+rectangle=[cardrange],[wid_border],[ht_border_mod],[wid_internal],[ht_internal_mod],#DDDDDD
+
+LINK = "data-basic-deck.csv"
+CARDS=[num_tts_cards]
+[img_suit]=JOIN([dir_img],"/",[suits])
+
+FOR=a,1,[numlines]
+  FOR=b,0,[numsuits]-1
+    IMAGE = {{cardvalue?a}+10*b}, {img_suit?{b+1}}, {[wid_internal]*({x?a}/[wid_cells]) - ({scale?a}*[base_scale])/2 + [wid_border]}, {[ht_internal] *({y?a}/[ht_cells])  - {{scale?a}*[base_scale]}/2 + [ht_border]}, {{scale?a}*[base_scale]},{{scale?a}*[base_scale]},{angle?a},{flags?a}
+  NEXT
+NEXT
+
+SAVETTS=[num_tts_cards],[dir_tts]/[deckname]
