@@ -4,6 +4,8 @@ INCLUDE=deck-macros.nde
 'info
 [suits]=spades.png|hearts.png|diamonds.png|clubs.png
 [deckname]=basic-deck.png
+
+[numsuits]=4
 [numcards]=40
 [numlines]=55
 [cardrange]="1-40"
@@ -11,10 +13,7 @@ INCLUDE=deck-macros.nde
 rectangle=[cardrange],[wid_border],[ht_border_mod],[wid_internal],[ht_internal_mod],#DDDDDD
 
 LINK = "data-basic-deck.csv"
-
 CARDS=[num_tts_cards]
-[numsuits]=GROUP([suits],COUNT)
-[numsuits]=4
 [img_suit]=JOIN([dir_img],"/",[suits])
 
 FOR=a,1,[numlines]
