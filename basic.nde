@@ -7,9 +7,9 @@ INCLUDE=deck-macros.nde
 [deckname]=basic-deck.png
 
 [numsuits]=4
-[numcards]=40
-[numlines]=55
-[cardrange]="1-40"
+[numcards]=52
+[numlines]=58
+[cardrange]="1-52"
 
 'rectangle=[cardrange],[wid_border],[ht_border_mod],[wid_internal],[ht_internal_mod],#DDDDDD
 
@@ -19,8 +19,8 @@ CARDS=[num_tts_cards]
 
 FOR=a,1,[numlines]
   FOR=b,0,[numsuits]-1
-    IMAGE = {{cardvalue?a}+10*b}, {img_suit?{b+1}}, {[wid_internal]*({x?a}/[wid_cells]) - ({scale?a}*[base_scale])/2 + [wid_border]}, {[ht_internal] *({y?a}/[ht_cells])  - {{scale?a}*[base_scale]}/2 + [ht_border]}, {{scale?a}*[base_scale]},{{scale?a}*[base_scale]},{angle?a},{flags?a}
-    CORNER_ICON = {{cardvalue?a}+10*b},{img_suit?{b+1}},{cornervalue?a},{colors?{b+1}}
+    IMAGE = {{cardvalue?a}+13*b}, {img_suit?{b+1}}, {[wid_internal]*({x?a}/[wid_cells]) - ({scale?a}*[base_scale])/2 + [wid_border]}, {[ht_internal] *({y?a}/[ht_cells])  - {{scale?a}*[base_scale]}/2 + [ht_border]}, {{scale?a}*[base_scale]},{{scale?a}*[base_scale]},{angle?a},{flags?a}
+    CORNER_ICON = {{cardvalue?a}+13*b},{img_suit?{b+1}},{cornervalue?a},{colors?{b+1}}
   NEXT
 NEXT
 
