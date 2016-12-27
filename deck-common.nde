@@ -46,6 +46,11 @@ CARDSIZE=[wid_card],[ht_card]
 [wid]  = 6
 [ht]   = 2.5
 
+[mini_suit_wid]= 0.75
+[mini_suit_ht] = 0.75
+[fontsize]=25
+[fudge]=0.05
+
 [num_tts_cards] = 70
 
 'needs to be common with img-common at some point
