@@ -20,11 +20,7 @@ CARDS=[num_tts_cards]
 FOR=a,1,[numlines]
   FOR=b,0,[numsuits]-1
     IMAGE = {{cardvalue?a}+10*b}, {img_suit?{b+1}}, {[wid_internal]*({x?a}/[wid_cells]) - ({scale?a}*[base_scale])/2 + [wid_border]}, {[ht_internal] *({y?a}/[ht_cells])  - {{scale?a}*[base_scale]}/2 + [ht_border]}, {{scale?a}*[base_scale]},{{scale?a}*[base_scale]},{angle?a},{flags?a}
-    FONT=arial,[fontsize],TB,{colors?{b+1}}
-    TEXT={{cardvalue?a}+10*b},{cornervalue?a},0,0,[wid_border],[wid_border],CENTER,TOP
-    IMAGE ={{cardvalue?a}+10*b}, {img_suit?{b+1}}, 0+[mini_suit_wid]/4-[fudge],[wid_border],[mini_suit_wid], [mini_suit_ht]
-    TEXT={{cardvalue?a}+10*b},{cornervalue?a},100%-[wid_border],100%-[wid_border],[wid_border],[wid_border],CENTER,TOP,180
-    IMAGE={{cardvalue?a}+10*b},{img_suit?{b+1}},100%-[wid_border]+[mini_suit_wid]/4-[fudge],100%-[wid_border]-[mini_suit_ht],[mini_suit_wid],[mini_suit_ht],180
+    CORNER_ICON = {{cardvalue?a}+10*b},{img_suit?{b+1}},{cornervalue?a},{colors?{b+1}}
   NEXT
 NEXT
 

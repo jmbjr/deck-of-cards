@@ -27,6 +27,14 @@ FONT=arial,[fontsize],TB,(color_outline)
 TEXT=(ranges),(values),100%-[font_mult_ht],[font_mult_ht]-1.5,[font_mult_ht],[font_mult_ht],center,wwtop,[angle],[alpha],[border_regular]
 END
 
+MACRO= CORNER_ICON,(range) ,(suiticon),(cornertext),(coloricon)
+    FONT=arial,[fontsize],TB,(coloricon)
+    TEXT  =(range),(cornertext),0,0,[wid_border],[wid_border],CENTER,TOP
+    IMAGE =(range),(suiticon), 0+[mini_suit_wid]/4-[fudge],[wid_border],[mini_suit_wid], [mini_suit_ht]
+    TEXT  =(range),(cornertext),100%-[wid_border],100%-[wid_border],[wid_border],[wid_border],CENTER,TOP,180
+    IMAGE =(range),(suiticon),100%-[wid_border]+[mini_suit_wid]/4-[fudge],100%-[wid_border]-[mini_suit_ht],[mini_suit_wid],[mini_suit_ht],180
+END
+
 MACRO= MAKE_BASIC_CARD, (input_csv_file)
 INCLUDE=deck-common.nde
 
