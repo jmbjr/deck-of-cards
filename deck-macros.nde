@@ -28,7 +28,7 @@ TEXT=(ranges),(values),100%-[font_mult_ht],[font_mult_ht]-1.5,[font_mult_ht],[fo
 END
 
 MACRO= CORNER_ICON,(range) ,(suiticon),(cornertext),(coloricon)
-    FONT="Card Characters Narrow Figures",[fontsize],TB,(coloricon)
+    FONT="Card Characters",[fontsize],TB,(coloricon)
     TEXT  =(range),(cornertext),0,0,[wid_border],[wid_border],CENTER,TOP
     IMAGE =(range),(suiticon), 0+[mini_suit_wid]/4-[fudge],[wid_border],[mini_suit_wid], [mini_suit_ht]
     TEXT  =(range),(cornertext),100%-[wid_border],100%-[wid_border],[wid_border],[wid_border],CENTER,TOP,180
