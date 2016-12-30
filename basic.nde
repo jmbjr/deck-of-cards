@@ -21,7 +21,10 @@ FOR=a,1,[numlines]
   FOR=b,0,[numsuits]-1
     IMAGE = {{cardvalue?a}+13*b}, {img_suit?{b+1}}, {[wid_internal]*({x?a}/[wid_cells]) - ({scale?a}*[base_scale])/2 + [wid_border]}, {[ht_internal] *({y?a}/[ht_cells])  - {{scale?a}*[base_scale]}/2 + [ht_border]}, {{scale?a}*[base_scale]},{{scale?a}*[base_scale]},{angle?a},{flags?a}
     CORNER_ICON = {{cardvalue?a}+13*b},{img_suit?{b+1}},{cornervalue?a},{colors?{b+1}}
+    if = {imgface?a} <> 0
+      image={{cardvalue?a}+13*b},{imgface?a},50%-[wid_face]/2,20%,[wid_face],[ht_face],0,TP
+    endif
   NEXT
 NEXT
-
+PRINT=1-52
 SAVETTS=[num_tts_cards],[dir_tts]/[deckname]

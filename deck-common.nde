@@ -48,7 +48,8 @@ CARDSIZE=[wid_card],[ht_card]
 
 [mini_suit_wid]= 0.75
 [mini_suit_ht] = 0.75
-[fontsize]=25
+[wid_face]=2
+[ht_face]=2
 [fudge]=0.05
 
 [num_tts_cards] = 70
