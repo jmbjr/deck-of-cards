@@ -22,13 +22,7 @@ FOR=a,1,[numlines]
     IMAGE = {{cardvalue?a}+13*b}, {img_suit?{b+1}}, {[wid_internal]*({x?a}/[wid_cells]) - ({scale?a}*[base_scale])/2 + [wid_border]}, {[ht_internal] *({y?a}/[ht_cells])  - {{scale?a}*[base_scale]}/2 + [ht_border]}, {{scale?a}*[base_scale]},{{scale?a}*[base_scale]},{angle?a},{flags?a}
     CORNER_ICON = {{cardvalue?a}+13*b},{img_suit?{b+1}},{cornervalue?a},{colors?{b+1}}
     if = {imgface?a} <> 0
-      if = {cardtitle?a} = jack
-         image={{cardvalue?a}+13*b},{imgface?a},50%-[wid_face]/2,25%,[wid_face],[ht_face],0,TP
-      elseif = {cardtitle?a} = queen
-         image={{cardvalue?a}+13*b},{imgface?a},50%-[wid_face]/2,20%,[wid_face],[ht_face],0,TP
-      elseif = {cardtitle?a} = king
-         image={{cardvalue?a}+13*b},{imgface?a},50%-[wid_face]/2,15%,[wid_face],[ht_face],0,TP
-      endif
+       image={{cardvalue?a}+13*b},{imgface?a},50%-[wid_face]/2,{yface?a},[wid_face],[ht_face],0,TP
     endif
   NEXT
 NEXT
