@@ -18,10 +18,10 @@ MARGINS=0,0,0,0
 [ht_internal_mod]=([ht_card]-([ht_border_mod]*2))
 
 [base_scale]=(0.33 * [wid_internal])
+[ace_scale]=(0.75 * [wid_internal])
 [base_scalex]=(0.33 * [wid_internal])
 [base_scaley]=(0.33 * [ht_internal])
 
-[ace_scale]=1.5
 [normal_scale]=0.85
 
 [wid_cells]=36
