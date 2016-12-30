@@ -69,21 +69,22 @@ fi
 
 if [ "${run_scp}" == "y" ]; then
   #push to remote
+  remotedir=basic-deck
   if ls ${ttsdir}/*.png 1> /dev/null 2>&1; then
     echo "COPYING FILES TO REMOTE SERVER!" | tee -a ${htmlfile} && echo "<br>" >> ${htmlfile}
     ls -l ${ttsdir}/*.png
     echo "REMOTE= $remote" | tee -a ${htmlfile} && echo "<br>" >> ${htmlfile}
     
-    ssh "${remote}"  'rm raidrace/img/*.png && rm raidrace/saves/*.json'
-    scp ${ttsdir}/*.png  "${remote}":raidrace/img/
-    scp ${htmlfile}  "${remote}":raidrace/img/
-    scp ${savedir}/*.json "${remote}":raidrace/saves/
+    ssh "${remote}"  'mkdir -p basic-deck/img && mkdir -p basic-deck/saves && rm basic-deck/img/*.png && rm basic-deck/saves/*.json'
+    scp ${ttsdir}/*.png  "${remote}":${remotedir}/img/
+    scp ${htmlfile}  "${remote}":${remotedir}/img/
+    scp ${savedir}/*.json "${remote}":${remotedir}/saves/
   
     #clear local cache
-    if ls "${local}"/Mods/Images/*raidrace*.png 1> /dev/null 2>&1; then
+    if ls "${local}"/Mods/Images/*${remotedir}*.png 1> /dev/null 2>&1; then
       echo "DELETING LOCAL CACHE" | tee -a ${htmlfile} && echo "<br>" >> ${htmlfile}
-      ls -l "${local}"/Mods/Images/*raidrace*.png
-      rm "${local}"/Mods/Images/*raidrace*.png
+      ls -l "${local}"/Mods/Images/*${remotedir}*.png
+      rm "${local}"/Mods/Images/*${remotedir}*.png
     else
       echo "NO LOCAL FILES TO DELETE!" | tee -a ${htmlfile} && echo "<br>" >> ${htmlfile}
     fi
