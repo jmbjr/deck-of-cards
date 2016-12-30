@@ -3,7 +3,11 @@ IMAGEFILTER=LANCZOS
 
 [wid_card]=6.35
 [ht_card]=8.89
+PAGE=[wid_card],[ht_card],PORTRAIT,HV
 CARDSIZE=[wid_card],[ht_card]
+border=none
+MARGINS=0,0,0,0
+
 [wid_border]=0.635
 [wid_border]=1
 [ht_border]=0.1
