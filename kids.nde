@@ -3,14 +3,15 @@ INCLUDE=deck-macros.nde
 
 'info
 [suits]=rainbow.png|unicorn.png|car.png|block.png
+[colors]=#000000|#ff2b8b|#049f00|#FF0000
 [deckname]=kids-fun-deck.png
 
 [numsuits]=4
-[numcards]=40
-[numlines]=55
-[cardrange]="1-40"
+[numcards]=52
+[numlines]=58
+[cardrange]="1-52"
 
-rectangle=[cardrange],[wid_border],[ht_border_mod],[wid_internal],[ht_internal_mod],#DDDDDD
+'rectangle=[cardrange],[wid_border],[ht_border_mod],[wid_internal],[ht_internal_mod],#DDDDDD
 
 LINK = "data-basic-deck.csv"
 CARDS=[num_tts_cards]
@@ -18,8 +19,18 @@ CARDS=[num_tts_cards]
 
 FOR=a,1,[numlines]
   FOR=b,0,[numsuits]-1
-    IMAGE = {{cardvalue?a}+10*b}, {img_suit?{b+1}}, {[wid_internal]*({x?a}/[wid_cells]) - ({scale?a}*[base_scale])/2 + [wid_border]}, {[ht_internal] *({y?a}/[ht_cells])  - {{scale?a}*[base_scale]}/2 + [ht_border]}, {{scale?a}*[base_scale]},{{scale?a}*[base_scale]},{angle?a},{flags?a}
+    ; make Unicorn bigger. swap [base_scale] with [ace_scale]
+    if = ({suits?{b+1}} = unicorn.png) _AND_ ({cornervalue?a} = A)
+      DRAWPIP = {{cardvalue?a}+13*b}, {img_suit?{b+1}}, {[wid_internal]*({x?a}/[wid_cells]) - ({scale?a}*[ace_scale])/2 + [wid_border]}, {[ht_internal] *({y?a}/[ht_cells])  - {{scale?a}*[ace_scale]}/2 + [ht_border]}, {{scale?a}*[ace_scale]},{angle?a},{flags?a}
+    else
+      DRAWPIP = {{cardvalue?a}+13*b}, {img_suit?{b+1}}, {[wid_internal]*({x?a}/[wid_cells]) - ({scale?a}*[base_scale])/2 + [wid_border]}, {[ht_internal] *({y?a}/[ht_cells])  - {{scale?a}*[base_scale]}/2 + [ht_border]}, {{scale?a}*[base_scale]},{angle?a},{flags?a}
+    endif
+    CORNER_ICON = {{cardvalue?a}+13*b},{img_suit?{b+1}},{cornervalue?a},{colors?{b+1}}
+    if = {imgface?a} <> 0
+       image={{cardvalue?a}+13*b},{imgface?a},50%-[wid_face]/2,{yface?a},[wid_face],[ht_face],0,TP
+    endif
   NEXT
 NEXT
-
+PRINT=1-52
 SAVETTS=[num_tts_cards],[dir_tts]/[deckname]
+
