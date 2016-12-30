@@ -1,0 +1,2296 @@
+{
+  "SaveName": "",
+  "GameMode": "",
+  "Date": "",
+  "Table": "",
+  "Sky": "",
+  "Note": "",
+  "Rules": "",
+  "PlayerTurn": "",
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "ObjectStates": [
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -3.15435767,
+        "posY": 1.554637,
+        "posZ": -2.76814055,
+        "rotX": 1.88929371E-05,
+        "rotY": 180.00293,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        142,
+        140,
+        126,
+        116,
+        108,
+        119,
+        130,
+        134,
+        115,
+        144,
+        132,
+        120,
+        141,
+        124,
+        135,
+        110,
+        105,
+        133,
+        122,
+        131,
+        114,
+        146,
+        151,
+        139,
+        106,
+        149,
+        111,
+        102,
+        118,
+        137,
+        125,
+        138,
+        150,
+        107,
+        145,
+        104,
+        123,
+        127,
+        112,
+        121,
+        103,
+        136,
+        128,
+        148,
+        129,
+        147,
+        117,
+        113,
+        109,
+        143,
+        101,
+        100
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+          "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+          "NumWidth": 10,
+          "NumHeight": 7,
+          "BackIsHidden": false,
+          "UniqueBack": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.91836,
+            "posY": 1.86000741,
+            "posZ": -2.99458122,
+            "rotX": -0.000231494865,
+            "rotY": 180.0,
+            "rotZ": 180.000381,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 142,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "fad023"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 5.97586727,
+            "posY": 1.32587576,
+            "posZ": 2.87290144,
+            "rotX": 0.0118047269,
+            "rotY": 180.036591,
+            "rotZ": 0.006825353,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 140,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "f7a584"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 1.974995,
+            "posY": 1.62494087,
+            "posZ": -3.194564,
+            "rotX": 354.7663,
+            "rotY": 180.135315,
+            "rotZ": 359.7912,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 126,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "fe56d2"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 7.324114,
+            "posY": 1.03171265,
+            "posZ": 9.97375,
+            "rotX": -5.880105E-07,
+            "rotY": 181.158936,
+            "rotZ": 3.67428147E-05,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 116,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "99d216"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -3.30554318,
+            "posY": 1.58038,
+            "posZ": 3.65258336,
+            "rotX": 356.797058,
+            "rotY": 179.949066,
+            "rotZ": 2.32743573,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 108,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "6b83f3"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 3.58585548,
+            "posY": 2.05789614,
+            "posZ": -2.71537876,
+            "rotX": 5.05858374,
+            "rotY": 180.340836,
+            "rotZ": 357.3813,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 119,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "4a262b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 6.629738,
+            "posY": 1.62851131,
+            "posZ": 3.1637814,
+            "rotX": 353.53656,
+            "rotY": 180.098129,
+            "rotZ": 1.2528106,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 130,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "f577df"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -3.1807394,
+            "posY": 1.85317624,
+            "posZ": -2.79100347,
+            "rotX": 4.62641048,
+            "rotY": 179.6753,
+            "rotZ": 358.336365,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 134,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "32871d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 5.295272,
+            "posY": 1.53016746,
+            "posZ": 5.437657,
+            "rotX": 354.018829,
+            "rotY": 188.978348,
+            "rotZ": 356.329376,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 115,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "199834"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -5.439181,
+            "posY": 1.40888476,
+            "posZ": -3.91675687,
+            "rotX": 2.98372626,
+            "rotY": 179.934341,
+            "rotZ": 359.8313,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 144,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "9a1134"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.13346982,
+            "posY": 1.61237347,
+            "posZ": -3.886384,
+            "rotX": 354.782349,
+            "rotY": 180.13002,
+            "rotZ": 359.891144,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 132,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "b16683"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 3.23474431,
+            "posY": 2.04561114,
+            "posZ": -1.05029011,
+            "rotX": 5.92091751,
+            "rotY": 178.98056,
+            "rotZ": 357.0878,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 120,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7d7ef8"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.5154665,
+            "posY": 1.5156461,
+            "posZ": -5.91307735,
+            "rotX": 359.9,
+            "rotY": 180.141937,
+            "rotZ": 0.5526994,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 141,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1ad50b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.7378319,
+            "posY": 1.77248,
+            "posZ": -3.40601778,
+            "rotX": 354.7803,
+            "rotY": 179.938965,
+            "rotZ": 351.23053,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 124,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "48eb94"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.33930445,
+            "posY": 1.48038232,
+            "posZ": 0.230714068,
+            "rotX": 0.196408451,
+            "rotY": 180.287308,
+            "rotZ": 1.40509224,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 135,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "f8c862"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -6.90970564,
+            "posY": 1.48851788,
+            "posZ": -0.9928066,
+            "rotX": 354.007477,
+            "rotY": 178.767136,
+            "rotZ": 0.0036865354,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 110,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "bce509"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.0444665,
+            "posY": 2.540666,
+            "posZ": 1.321309,
+            "rotX": 352.395081,
+            "rotY": 185.02655,
+            "rotZ": 3.49854136,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 105,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "0c9468"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.965575,
+            "posY": 1.61296177,
+            "posZ": 0.7724285,
+            "rotX": 0.148694545,
+            "rotY": 179.867538,
+            "rotZ": 1.30269229,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 133,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "d266d9"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 3.61134839,
+            "posY": 1.9414562,
+            "posZ": 0.7562727,
+            "rotX": 359.889435,
+            "rotY": 178.308838,
+            "rotZ": 356.983215,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 122,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "a605cb"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -4.50126457,
+            "posY": 1.55225945,
+            "posZ": -5.28048944,
+            "rotX": 3.90454674,
+            "rotY": 182.079773,
+            "rotZ": 356.7132,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 131,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "8777b0"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 3.45223355,
+            "posY": 1.99971747,
+            "posZ": 3.80570221,
+            "rotX": 356.314453,
+            "rotY": 181.6023,
+            "rotZ": 356.9435,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 114,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "0e67d5"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.90744185,
+            "posY": 1.50086784,
+            "posZ": -2.51741552,
+            "rotX": 3.99157786,
+            "rotY": 179.849121,
+            "rotZ": 358.369049,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 146,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "feaa16"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -4.172655,
+            "posY": 1.326047,
+            "posZ": -1.1698029,
+            "rotX": 0.000915707031,
+            "rotY": 180.005936,
+            "rotZ": 0.00126295048,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 151,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "cbec44"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 0.5963411,
+            "posY": 1.3260473,
+            "posZ": 5.67857361,
+            "rotX": -1.26057785E-06,
+            "rotY": 179.953445,
+            "rotZ": -1.01199953E-06,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 139,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "47635b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -5.624932,
+            "posY": 1.50079262,
+            "posZ": 2.43552542,
+            "rotX": 356.868256,
+            "rotY": 180.472458,
+            "rotZ": 355.281342,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 106,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7e9d74"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -1.18641615,
+            "posY": 1.32639563,
+            "posZ": -4.264283,
+            "rotX": 359.992767,
+            "rotY": 180.014526,
+            "rotZ": 0.0141026229,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 149,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "86bf53"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.514166,
+            "posY": 2.343,
+            "posZ": -1.64510572,
+            "rotX": 5.118427,
+            "rotY": 180.543533,
+            "rotZ": 357.3607,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 111,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "24a780"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 10.9804649,
+            "posY": 1.031713,
+            "posZ": 7.45274448,
+            "rotX": 2.59377862E-06,
+            "rotY": 180.509064,
+            "rotZ": 7.385587E-06,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 102,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "69ea6b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -0.2642924,
+            "posY": 1.37168014,
+            "posZ": -4.07471657,
+            "rotX": 0.09807283,
+            "rotY": 179.508484,
+            "rotZ": 0.3855929,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 118,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "2d41ab"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.45449233,
+            "posY": 1.373517,
+            "posZ": 1.7245729,
+            "rotX": 0.365020066,
+            "rotY": 180.002884,
+            "rotZ": 0.50213635,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 137,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "307ecc"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 3.082863,
+            "posY": 1.74178028,
+            "posZ": -0.7288737,
+            "rotX": 359.663025,
+            "rotY": 180.049179,
+            "rotZ": 356.628082,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 125,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "869997"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -2.73757625,
+            "posY": 1.4574703,
+            "posZ": 2.817159,
+            "rotX": 356.839478,
+            "rotY": 179.22847,
+            "rotZ": 2.39772487,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 138,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "528dcc"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.96773338,
+            "posY": 1.3258599,
+            "posZ": 1.38045585,
+            "rotX": 0.00590863125,
+            "rotY": 180.001129,
+            "rotZ": -0.000580906752,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 150,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "daea40"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 6.32379246,
+            "posY": 1.95657814,
+            "posZ": 1.44311333,
+            "rotX": 0.0769725144,
+            "rotY": 180.329819,
+            "rotZ": 1.31170011,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 107,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "6bd99b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -4.100462,
+            "posY": 1.3704319,
+            "posZ": -2.54815078,
+            "rotX": 0.8519512,
+            "rotY": 179.948135,
+            "rotZ": 359.8711,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 145,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "b29555"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -3.51006937,
+            "posY": 6.49802256,
+            "posZ": 0.0659021363,
+            "rotX": -3.70605667E-05,
+            "rotY": 180.0377,
+            "rotZ": -0.0003465747,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 104,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "1acc9e"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.028256,
+            "posY": 1.93761885,
+            "posZ": 1.641708,
+            "rotX": 359.441071,
+            "rotY": 180.14035,
+            "rotZ": 357.024078,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 123,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "a7b832"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -3.19737649,
+            "posY": 2.12788773,
+            "posZ": -3.13868451,
+            "rotX": 359.400757,
+            "rotY": 179.782928,
+            "rotZ": 359.2849,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 127,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "e10b88"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -5.51398134,
+            "posY": 1.564413,
+            "posZ": -5.391237,
+            "rotX": 3.99568677,
+            "rotY": 180.392609,
+            "rotZ": 356.7609,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 112,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "e43c23"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 6.72375774,
+            "posY": 1.57484448,
+            "posZ": -0.5618538,
+            "rotX": 0.0157743171,
+            "rotY": 180.244125,
+            "rotZ": 13.2208624,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 121,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "02659b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 6.217503,
+            "posY": 2.01078677,
+            "posZ": 2.04999065,
+            "rotX": 0.200966939,
+            "rotY": 180.100922,
+            "rotZ": 1.28093922,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 103,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "65f24a"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -6.674325,
+            "posY": 1.36444592,
+            "posZ": 4.796258,
+            "rotX": 352.177582,
+            "rotY": 181.70932,
+            "rotZ": 353.565735,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 136,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "21f4eb"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 3.0424118,
+            "posY": 1.752631,
+            "posZ": 0.358961,
+            "rotX": 359.462982,
+            "rotY": 179.457169,
+            "rotZ": 357.0412,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 128,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "a1a460"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.93617654,
+            "posY": 1.32589257,
+            "posZ": -2.66715527,
+            "rotX": 0.0100897253,
+            "rotY": 180.0106,
+            "rotZ": 0.00515854638,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 148,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "47aecc"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -9.906497,
+            "posY": 1.03632665,
+            "posZ": 0.908231735,
+            "rotX": 0.000141521581,
+            "rotY": 180.4581,
+            "rotZ": 359.756378,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 129,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "64cc7c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -4.46329927,
+            "posY": 1.4117794,
+            "posZ": 1.49343681,
+            "rotX": 356.850067,
+            "rotY": 179.9374,
+            "rotZ": 0.00263740448,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 147,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "8dfbda"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 1.15132141,
+            "posY": 2.217024,
+            "posZ": -3.279909,
+            "rotX": -0.00042693576,
+            "rotY": 179.843323,
+            "rotZ": -0.00105650222,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 117,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "bb1ace"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 4.67450666,
+            "posY": 1.549267,
+            "posZ": 5.16122532,
+            "rotX": 354.21344,
+            "rotY": 182.032761,
+            "rotZ": 356.503235,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 113,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "529c3c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 3.68599129,
+            "posY": 2.31020331,
+            "posZ": 1.62904644,
+            "rotX": 356.437866,
+            "rotY": 180.513184,
+            "rotZ": 3.02551484,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 109,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "0f7ae7"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -3.071454,
+            "posY": 1.41234255,
+            "posZ": -5.014554,
+            "rotX": -0.00374325551,
+            "rotY": 179.520584,
+            "rotZ": 355.4619,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 143,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "7b75f4"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -9.222585,
+            "posY": 1.067631,
+            "posZ": 4.497264,
+            "rotX": -0.00248865341,
+            "rotY": 181.882614,
+            "rotZ": 358.1141,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 101,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "14073c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 2.803615,
+            "posY": 2.28358269,
+            "posZ": -1.98007774,
+            "rotX": 3.626592,
+            "rotY": 173.449188,
+            "rotZ": 347.958649,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "",
+          "Description": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "CardID": 100,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "http://games.boylecraft.net/basic-deck/img/basic-deck.png",
+              "BackURL": "http://games.boylecraft.net/basic-deck/img/back.png",
+              "NumWidth": 10,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "GUID": "2af21a"
+        }
+      ],
+      "GUID": "e8b44a"
+    }
+  ],
+  "TabStates": {}
+}
