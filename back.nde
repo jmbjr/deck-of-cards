@@ -5,10 +5,10 @@ IMAGEFILTER=LANCZOS
 
 RECTANGLE=1,0,0,100%,100%,#000055#111111#ffccaa#00aaff@167
 
-FONT = "Card Characters Narrow Figures", 30, T, #FF0000
+FONT = "Card Characters Narrow Figures", 26, T, #0000FF
 TEXT=1-3,Boylecraft Games,0,0,100%,100%,CENTER,WWCENTER
 
-FONT = "Card Characters Narrow Figures", 30, T, #FFFFFF
-TEXT=1-3,Boylecraft Games,0,0,100%,100%,CENTER,WWCENTER,0,100,0.05
+FONT = "Card Characters Narrow Figures", 26, T, #FFFFFF
+TEXT=1-3,Boylecraft Games,0,0,100%,100%,CENTER,WWCENTER,0,100,0.03
 
 save=1,[dir_tts]/back.png
