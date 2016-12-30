@@ -1,6 +1,6 @@
 MACRO=DRAWPIP, (rng), (file), (x), (y), (scale), (angle), (flags)
 INCLUDE deck-common.nde
-IMAGE = (rng), (file), {[wid_internal]*((x)/[wid_cells]) - ((scale)*[base_scale])/2 + [wid_border]}, {[ht_internal] *((y)/[ht_cells])  - ((scale)*[base_scale])/2 + [ht_border]}, (scale)*[base_scale],(scale)*[base_scale], (angle), (flags)
+IMAGE = (rng), (file), (x), (y), (scale),(scale), (angle), (flags)
 END
 
 MACRO= CARDTITLE, (color_title), (colors-txt), (ranges), (values)
