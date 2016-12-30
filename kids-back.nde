@@ -1,0 +1,8 @@
+OVERSAMPLE=2
+IMAGEFILTER=LANCZOS
+
+[dir_tts]=tts
+
+RECTANGLE=1,0,0,100%,100%,#000000#ff2b8b#049f00#FF0000@167
+
+save=1,[dir_tts]/kids-back.png
