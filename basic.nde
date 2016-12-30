@@ -19,6 +19,7 @@ CARDS=[num_tts_cards]
 
 FOR=a,1,[numlines]
   FOR=b,0,[numsuits]-1
+    ; make Ace of Spade bigger. swap [base_scale] with [ace_scale]
     if = ({suits?{b+1}} = spades.png) _AND_ ({cornervalue?a} = A)
       DRAWPIP = {{cardvalue?a}+13*b}, {img_suit?{b+1}}, {[wid_internal]*({x?a}/[wid_cells]) - ({scale?a}*[ace_scale])/2 + [wid_border]}, {[ht_internal] *({y?a}/[ht_cells])  - {{scale?a}*[ace_scale]}/2 + [ht_border]}, {{scale?a}*[ace_scale]},{angle?a},{flags?a}
     else
@@ -31,5 +32,5 @@ FOR=a,1,[numlines]
   NEXT
 NEXT
 PRINT=1-52
-SAVETTS=[num_tts_cards],[dir_tts]/[deckname]    ; make Ace of Spade bigger. swap [base_scale] with [ace_scale]
+SAVETTS=[num_tts_cards],[dir_tts]/[deckname]    
 
