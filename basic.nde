@@ -19,7 +19,6 @@ CARDS=[num_tts_cards]
 
 FOR=a,1,[numlines]
   FOR=b,0,[numsuits]-1
-    DRAWPIP = {{cardvalue?a}+13*b}, {img_suit?{b+1}}, {[wid_internal]*({x?a}/[wid_cells]) - ({scale?a}*[base_scale])/2 + [wid_border]}, {[ht_internal] *({y?a}/[ht_cells])  - {{scale?a}*[base_scale]}/2 + [ht_border]}, {{scale?a}*[base_scale]},{angle?a},{flags?a}
     CORNER_ICON = {{cardvalue?a}+13*b},{img_suit?{b+1}},{cornervalue?a},{colors?{b+1}}
     if = {imgface?a} <> 0
        image={{cardvalue?a}+13*b},{imgface?a},50%-[wid_face]/2,{yface?a},[wid_face],[ht_face],0,TP
@@ -27,4 +26,9 @@ FOR=a,1,[numlines]
   NEXT
 NEXT
 PRINT=1-52
-SAVETTS=[num_tts_cards],[dir_tts]/[deckname]
+SAVETTS=[num_tts_cards],[dir_tts]/[deckname]    ; make Ace of Spade bigger. swap [base_scale] with [ace_scale]
+    if = ({suits?{b+1}} = spades.png) _AND_ ({cornervalue?a} = A)
+      DRAWPIP = {{cardvalue?a}+13*b}, {img_suit?{b+1}}, {[wid_internal]*({x?a}/[wid_cells]) - ({scale?a}*[ace_scale])/2 + [wid_border]}, {[ht_internal] *({y?a}/[ht_cells])  - {{scale?a}*[ace_scale]}/2 + [ht_border]}, {{scale?a}*[ace_scale]},{angle?a},{flags?a}
+    else
+      DRAWPIP = {{cardvalue?a}+13*b}, {img_suit?{b+1}}, {[wid_internal]*({x?a}/[wid_cells]) - ({scale?a}*[base_scale])/2 + [wid_border]}, {[ht_internal] *({y?a}/[ht_cells])  - {{scale?a}*[base_scale]}/2 + [ht_border]}, {{scale?a}*[base_scale]},{angle?a},{flags?a}
+    endif
