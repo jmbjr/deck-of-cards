@@ -70,7 +70,7 @@ fi
 if [ "${run_scp}" == "y" ]; then
   #push to remote
   remotedir=basic-deck
-  localstring=basicdeck
+
   if ls ${ttsdir}/*.png 1> /dev/null 2>&1; then
     echo "COPYING FILES TO REMOTE SERVER!" | tee -a ${htmlfile} && echo "<br>" >> ${htmlfile}
     ls -l ${ttsdir}/*.png
@@ -82,13 +82,16 @@ if [ "${run_scp}" == "y" ]; then
     scp ${savedir}/*.json "${remote}":${remotedir}/saves/
   
     #clear local cache
-    if ls "${local}"/Mods/Images/*${localstring}*.png 1> /dev/null 2>&1; then
-      echo "DELETING LOCAL CACHE" | tee -a ${htmlfile} && echo "<br>" >> ${htmlfile}
-      ls -l "${local}"/Mods/Images/*${localstring}*.png
-      rm "${local}"/Mods/Images/*${localstring}*.png
-    else
-      echo "NO LOCAL FILES TO DELETE!" | tee -a ${htmlfile} && echo "<br>" >> ${htmlfile}
-    fi
+    for localstring in basicdeck kidsfundeck backpng
+    do
+      if ls "${local}"/Mods/Images/*${localstring}*.png 1> /dev/null 2>&1; then
+        echo "DELETING LOCAL CACHE" | tee -a ${htmlfile} && echo "<br>" >> ${htmlfile}
+        ls -l "${local}"/Mods/Images/*${localstring}*.png
+        rm "${local}"/Mods/Images/*${localstring}*.png
+      else
+        echo "NO LOCAL FILES TO DELETE!" | tee -a ${htmlfile} && echo "<br>" >> ${htmlfile}
+      fi
+    done
     
     #install current save file to Save folder
     cp ${savedir}/*.json "${local}"/Saves/Chest
