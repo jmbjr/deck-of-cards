@@ -37,7 +37,7 @@ CARDSIZE=[wid_card],[ht_card]
 
 [font_mult_wid] = 100%
 [font_mult_ht] = 50%
-[fontsize]=30
+[fontsize]=26
 [angle] = 0
 [alpha] = 100
 
