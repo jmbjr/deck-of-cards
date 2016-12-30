@@ -54,6 +54,6 @@ ten,10,6,42,0.85,0,TRPV,=,0
 ten,10,30,42,0.85,0,TRPV,=,0
 ten,10,18,12,0.85,0,TRP,=,0
 ten,10,18,36,0.85,0,TRPV,=,0
-jack,11,18,24,2.5,0,TRP,J,img/jack.png
+jack,11,18,24,2,0,TRP,J,img/jack.png
 queen,12,18,24,2.5,0,TRP,Q,img/queen.png
-king,13,18,24,2.5,0,TRP,K,img/king.png
+king,13,18,24,3,0,TRP,K,img/king.png
