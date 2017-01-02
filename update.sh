@@ -9,6 +9,19 @@ read run_nandeck
 echo "scp data to remote?"
 read run_scp
 
+#NOTES:
+#1. I've only run this using git-bash on windows. Should work with any bash-compatible terminal (adjust paths as needed)
+#2. edit the lines below to customize script for your use
+#3. option to "scp data to remote" requires access to a remote server that you can scp/ssh to. if you don't have access to that, just answer 'n' to this option
+
+#EDIT THESE LINES
+
+#remote=name of remote server set up in your .ssh/config file
+#nandeck=path to your nanDECK executable
+#local=path to your local Tabletop Simulator games folder. if you don't have Tabletop Simulator, set this to a dummy path (ToDo handle this better)
+#ttsdir=output folder where output pngs will be created. you will have to ensure your decks actually use this directory (in decks-common.nde).
+#savedir=output folder where TTS save files are located. you will need to manually keep your tts .json save file updated yourself. this script simply copies it locally to your tabletop simulator folder and uploads it to your remote.
+
 remote="kvm"
 nandeck="/c/dev/nandeck_1_23_beta1/nanDECK.exe"
 local="/c/Users/John/Documents/My Games/Tabletop Simulator"
