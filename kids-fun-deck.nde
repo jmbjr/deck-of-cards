@@ -31,6 +31,5 @@ FOR=a,1,[numlines]
     endif
   NEXT
 NEXT
-PRINT=1-52
 SAVETTS=[num_tts_cards],[dir_tts]/[deckname]
 
