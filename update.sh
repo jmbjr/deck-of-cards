@@ -19,7 +19,7 @@ htmlfile="${ttsdir}/index.html"
 #set up index.html file
 echo "<HTML>" > ${htmlfile}
 echo "<BODY text=#000000 link=#FF0000 bgColor=#9BB4B8><P align=center>" >> ${htmlfile}
-echo "<font size=+2>RaidRace Decks</font>" >> ${htmlfile}
+echo "<font size=+2>Decks</font>" >> ${htmlfile}
 
 echo "<br>" >> ${htmlfile}
 
