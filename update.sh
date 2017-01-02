@@ -10,7 +10,7 @@ echo "scp data to remote?"
 read run_scp
 
 remote="kvm"
-nandeck="/c/dev/nandeck_v1.22/nanDECK.exe"
+nandeck="/c/dev/nandeck_1_23_beta1/nanDECK.exe"
 local="/c/Users/John/Documents/My Games/Tabletop Simulator"
 ttsdir="./tts/"
 savedir="./save/"
