@@ -23,8 +23,8 @@ read run_scp
 #savedir=output folder where TTS save files are located. you will need to manually keep your tts .json save file updated yourself. this script simply copies it locally to your tabletop simulator folder and uploads it to your remote.
 
 remote="kvm"
-nandeck="/c/dev/nandeck_1_23_beta1/nanDECK.exe"
-local="/c/Users/John/Documents/My Games/Tabletop Simulator"
+nandeck="/d/dev/nandeck/nandeck_1_23_beta1/nanDECK.exe"
+local="/d/Users/John/Documents/My Games/Tabletop Simulator"
 ttsdir="./tts/"
 savedir="./save/"
 htmlfile="${ttsdir}/index.html"

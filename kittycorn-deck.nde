@@ -1,0 +1,35 @@
+INCLUDE=deck-common.nde
+INCLUDE=deck-macros.nde
+
+'info
+[suits]=kittycorn_blue.PNG|kittycorn_green.PNG|kittycorn_red.PNG|kittycorn_purple.PNG
+[colors]=#18daf4|#5ad326|#d0374b|#4b47bc
+[deckname]=kittycorn-deck.png
+
+[numsuits]=4
+[numcards]=52
+[numlines]=58
+[cardrange]="1-52"
+
+'rectangle=[cardrange],[wid_border],[ht_border_mod],[wid_internal],[ht_internal_mod],#DDDDDD
+
+LINK = "data-basic-deck.csv"
+CARDS=[num_tts_cards]
+[img_suit]=JOIN([dir_img],"/",[suits])
+
+FOR=a,1,[numlines]
+  FOR=b,0,[numsuits]-1
+    ; make Kittycorn green bigger. swap [base_scale] with [ace_scale]
+    if = ({suits?{b+1}} = kittycorn_green.PNG) _AND_ ({cornervalue?a} = A)
+      DRAWPIP = {{cardvalue?a}+13*b}, {img_suit?{b+1}}, {[wid_internal]*({x?a}/[wid_cells]) - ({scale?a}*[ace_scale])/2 + [wid_border]}, {[ht_internal] *({y?a}/[ht_cells])  - {{scale?a}*[ace_scale]}/2 + [ht_border]}, {{scale?a}*[ace_scale]},{angle?a},{flags?a}
+    else
+      DRAWPIP = {{cardvalue?a}+13*b}, {img_suit?{b+1}}, {[wid_internal]*({x?a}/[wid_cells]) - ({scale?a}*[base_scale])/2 + [wid_border]}, {[ht_internal] *({y?a}/[ht_cells])  - {{scale?a}*[base_scale]}/2 + [ht_border]}, {{scale?a}*[base_scale]},{angle?a},{flags?a}
+    endif
+    CORNER_ICON = {{cardvalue?a}+13*b},{img_suit?{b+1}},{cornervalue?a},{colors?{b+1}}
+    if = {imgface?a} <> 0
+       image={{cardvalue?a}+13*b},{imgface?a},50%-[wid_face]/2,{yface?a},[wid_face],[ht_face],0,TP
+    endif
+  NEXT
+NEXT
+SAVETTS=[num_tts_cards],[dir_tts]/[deckname]
+

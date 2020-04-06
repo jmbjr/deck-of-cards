@@ -1,0 +1,20 @@
+INCLUDE=deck-common.nde
+INCLUDE=deck-macros.nde
+
+rectangle="1-10",[wid_border],[ht_border_mod],[wid_internal],[ht_internal_mod],#DDDDDD
+
+LINK = "data-basic-deck.csv"
+
+[rng]="1,2,2,3,3,3,4,4,4,4,5,5,5,5,5,6,6,6,6,6,6,7,7,7,7,7,7,7,8,8,8,8,8,8,8,8,9,9,9,9,9,9,9,9,9,10,10,10,10,10,10,10,10,10,10"
+[img]="img/test.png"
+
+[zscale]=[scale]*[base_scale]
+
+[xloc]={[wid_internal]*([x]/[wid_cells]) - [zscale]/2 + [wid_border]}
+[yloc]={[ht_internal] *([y]/[ht_cells])  - [zscale]/2 + [ht_border]}
+
+[zone_pip]=[xloc], [yloc], [zscale],[zscale]
+
+IMAGE = [rng], [img], [zone_pip], 0, TRP
+
+'SAVETTS=[num_tts_cards],[dir_tts]/hearts-tmp.png

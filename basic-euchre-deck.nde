@@ -1,0 +1,36 @@
+INCLUDE=deck-common.nde
+INCLUDE=deck-macros.nde
+
+'info
+[suits]=spades.png|hearts.png|diamonds.png|clubs.png
+[colors]=#000000|#FF0000|#FF0000|#000000
+[deckname]=basic-euchre.png
+
+[cards_per_suit]=6
+[numsuits]=4
+[numcards]=24
+[numlines]=23
+[cardrange]="1-24"
+
+'rectangle=[cardrange],[wid_border],[ht_border_mod],[wid_internal],[ht_internal_mod],#DDDDDD
+
+LINK = "data-euchre-deck.csv"
+CARDS=[num_tts_cards]
+[img_suit]=JOIN([dir_img],"/",[suits])
+
+FOR=a,1,[numlines]
+  FOR=b,0,[numsuits]-1
+    ; make Ace of Spade bigger. swap [base_scale] with [ace_scale]
+    if = ({suits?{b+1}} = spades.png) _AND_ ({cornervalue?a} = A)
+      DRAWPIP = {{cardvalue?a}+[cards_per_suit]*b}, {img_suit?{b+1}}, {[wid_internal]*({x?a}/[wid_cells]) - ({scale?a}*[ace_scale])/2 + [wid_border]}, {[ht_internal] *({y?a}/[ht_cells])  - {{scale?a}*[ace_scale]}/2 + [ht_border]}, {{scale?a}*[ace_scale]},{angle?a},{flags?a}
+    else
+      DRAWPIP = {{cardvalue?a}+[cards_per_suit]*b}, {img_suit?{b+1}}, {[wid_internal]*({x?a}/[wid_cells]) - ({scale?a}*[base_scale])/2 + [wid_border]}, {[ht_internal] *({y?a}/[ht_cells])  - {{scale?a}*[base_scale]}/2 + [ht_border]}, {{scale?a}*[base_scale]},{angle?a},{flags?a}
+    endif
+    CORNER_ICON = {{cardvalue?a}+[cards_per_suit]*b},{img_suit?{b+1}},{cornervalue?a},{colors?{b+1}}
+    if = {imgface?a} <> 0
+       image={{cardvalue?a}+[cards_per_suit]*b},{imgface?a},50%-[wid_face]/2,{yface?a},[wid_face],[ht_face],0,TP
+    endif
+  NEXT
+NEXT
+SAVETTS=[num_tts_cards],[dir_tts]/[deckname]
+
